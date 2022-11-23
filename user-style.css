@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    outline: none
+}
+
+.user-registretion {
+    border: 1px solid;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/istockphoto-1353553203-170667a.jpg);
+    background-size: cover;
+    mask-repeat: no-repeat;
+
+}
+
+.main-content {
+    background-color: white;
+    border: 1px solid;
+    width: 400px;
+    border-radius: 10px;
+    border-radius: 5px;
+}
+
+.main-content p {
+    font-size: 24px;
+    margin: 10px;
+    color: green;
+
+}
+
+.First-Name {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.Last-Name {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.input {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mail .Email-Id {
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid;
+    width: 100%;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.password {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.new-p {
+    width: 50%;
+    border: 1px solid;
+    margin: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.conform-p {
+    width: 50%;
+    border: 1px solid;
+    margin: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+
+.cheak-date {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cheackbox {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.contact-city {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    outline: none;
+    justify-content: space-evenly;
+
+}
+
+.contact {
+    width: 50%;
+    border: 1px solid;
+    margin: 10px;
+    font-size: 18px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.city {
+    width: 50%;
+    border: 1px solid;
+    margin: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.health{
+
+    margin: 10px;
+    padding: 0px;
+
+}
+
+.text {
+   font-size: 18px;
+    display: flex;
+   width: 100%;
+   height: 60px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid;
+
+
+
+}
+
+.btn {
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    margin-bottom: 10px;
+    background-color: green;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+
+}
